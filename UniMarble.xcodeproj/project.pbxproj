@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8AFED1133FBDEB004ADF5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8AFED0133FBDEB004ADF5D /* UIKit.framework */; };
+		9F8AFED3133FBDEB004ADF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8AFED2133FBDEB004ADF5D /* Foundation.framework */; };
+		9F8AFED5133FBDEB004ADF5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8AFED4133FBDEB004ADF5D /* CoreGraphics.framework */; };
+		9F8AFEDB133FBDEB004ADF5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFED9133FBDEB004ADF5D /* InfoPlist.strings */; };
+		9F8AFEDD133FBDEB004ADF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AFEDC133FBDEB004ADF5D /* main.m */; };
+		9F8AFEE1133FBDEB004ADF5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AFEE0133FBDEB004ADF5D /* AppDelegate.m */; };
+		9F8AFEE3133FBDEB004ADF5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEE2133FBDEB004ADF5D /* Default.png */; };
+		9F8AFEE5133FBDEB004ADF5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEE4133FBDEB004ADF5D /* Default@2x.png */; };
+		9F8AFEE7133FBDEB004ADF5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEE6133FBDEB004ADF5D /* Default-568h@2x.png */; };
+		9F8AFEEA133FBDEB004ADF5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8AFEE9133FBDEB004ADF5D /* ViewController.m */; };
+		9F8AFEED133FBDEB004ADF5D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEEB133FBDEB004ADF5D /* ViewController_iPhone.xib */; };
+		9F8AFEF0133FBDEB004ADF5D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEEE133FBDEB004ADF5D /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F8AFECC133FBDEB004ADF5D /* UniMarble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniMarble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8AFED0133FBDEB004ADF5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8AFED2133FBDEB004ADF5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8AFED4133FBDEB004ADF5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8AFED8133FBDEB004ADF5D /* UniMarble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniMarble-Info.plist"; sourceTree = "<group>"; };
+		9F8AFEDA133FBDEB004ADF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8AFEDC133FBDEB004ADF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8AFEDE133FBDEB004ADF5D /* UniMarble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniMarble-Prefix.pch"; sourceTree = "<group>"; };
+		9F8AFEDF133FBDEB004ADF5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8AFEE0133FBDEB004ADF5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8AFEE2133FBDEB004ADF5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F8AFEE4133FBDEB004ADF5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F8AFEE6133FBDEB004ADF5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F8AFEE8133FBDEB004ADF5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8AFEE9133FBDEB004ADF5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8AFEEC133FBDEB004ADF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9F8AFEEF133FBDEB004ADF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8AFEC9133FBDEB004ADF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8AFED1133FBDEB004ADF5D /* UIKit.framework in Frameworks */,
+				9F8AFED3133FBDEB004ADF5D /* Foundation.framework in Frameworks */,
+				9F8AFED5133FBDEB004ADF5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8AFEC1133FBDEB004ADF5D = {
+			isa = PBXGroup;
+			children = (
+				9F8AFED6133FBDEB004ADF5D /* UniMarble */,
+				9F8AFECF133FBDEB004ADF5D /* Frameworks */,
+				9F8AFECD133FBDEB004ADF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8AFECD133FBDEB004ADF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AFECC133FBDEB004ADF5D /* UniMarble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8AFECF133FBDEB004ADF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AFED0133FBDEB004ADF5D /* UIKit.framework */,
+				9F8AFED2133FBDEB004ADF5D /* Foundation.framework */,
+				9F8AFED4133FBDEB004ADF5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8AFED6133FBDEB004ADF5D /* UniMarble */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AFEDF133FBDEB004ADF5D /* AppDelegate.h */,
+				9F8AFEE0133FBDEB004ADF5D /* AppDelegate.m */,
+				9F8AFEE8133FBDEB004ADF5D /* ViewController.h */,
+				9F8AFEE9133FBDEB004ADF5D /* ViewController.m */,
+				9F8AFEEB133FBDEB004ADF5D /* ViewController_iPhone.xib */,
+				9F8AFEEE133FBDEB004ADF5D /* ViewController_iPad.xib */,
+				9F8AFED7133FBDEB004ADF5D /* Supporting Files */,
+			);
+			path = UniMarble;
+			sourceTree = "<group>";
+		};
+		9F8AFED7133FBDEB004ADF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AFED8133FBDEB004ADF5D /* UniMarble-Info.plist */,
+				9F8AFED9133FBDEB004ADF5D /* InfoPlist.strings */,
+				9F8AFEDC133FBDEB004ADF5D /* main.m */,
+				9F8AFEDE133FBDEB004ADF5D /* UniMarble-Prefix.pch */,
+				9F8AFEE2133FBDEB004ADF5D /* Default.png */,
+				9F8AFEE4133FBDEB004ADF5D /* Default@2x.png */,
+				9F8AFEE6133FBDEB004ADF5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8AFECB133FBDEB004ADF5D /* UniMarble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8AFEF3133FBDEB004ADF5D /* Build configuration list for PBXNativeTarget "UniMarble" */;
+			buildPhases = (
+				9F8AFEC8133FBDEB004ADF5D /* Sources */,
+				9F8AFEC9133FBDEB004ADF5D /* Frameworks */,
+				9F8AFECA133FBDEB004ADF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniMarble;
+			productName = UniMarble;
+			productReference = 9F8AFECC133FBDEB004ADF5D /* UniMarble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8AFEC3133FBDEB004ADF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ipap;
+			};
+			buildConfigurationList = 9F8AFEC6133FBDEB004ADF5D /* Build configuration list for PBXProject "UniMarble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F8AFEC1133FBDEB004ADF5D;
+			productRefGroup = 9F8AFECD133FBDEB004ADF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8AFECB133FBDEB004ADF5D /* UniMarble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8AFECA133FBDEB004ADF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8AFEDB133FBDEB004ADF5D /* InfoPlist.strings in Resources */,
+				9F8AFEE3133FBDEB004ADF5D /* Default.png in Resources */,
+				9F8AFEE5133FBDEB004ADF5D /* Default@2x.png in Resources */,
+				9F8AFEE7133FBDEB004ADF5D /* Default-568h@2x.png in Resources */,
+				9F8AFEED133FBDEB004ADF5D /* ViewController_iPhone.xib in Resources */,
+				9F8AFEF0133FBDEB004ADF5D /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8AFEC8133FBDEB004ADF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8AFEDD133FBDEB004ADF5D /* main.m in Sources */,
+				9F8AFEE1133FBDEB004ADF5D /* AppDelegate.m in Sources */,
+				9F8AFEEA133FBDEB004ADF5D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F8AFED9133FBDEB004ADF5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8AFEDA133FBDEB004ADF5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F8AFEEB133FBDEB004ADF5D /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8AFEEC133FBDEB004ADF5D /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9F8AFEEE133FBDEB004ADF5D /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8AFEEF133FBDEB004ADF5D /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8AFEF1133FBDEB004ADF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F8AFEF2133FBDEB004ADF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8AFEF4133FBDEB004ADF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniMarble/UniMarble-Prefix.pch";
+				INFOPLIST_FILE = "UniMarble/UniMarble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F8AFEF5133FBDEB004ADF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniMarble/UniMarble-Prefix.pch";
+				INFOPLIST_FILE = "UniMarble/UniMarble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8AFEC6133FBDEB004ADF5D /* Build configuration list for PBXProject "UniMarble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8AFEF1133FBDEB004ADF5D /* Debug */,
+				9F8AFEF2133FBDEB004ADF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8AFEF3133FBDEB004ADF5D /* Build configuration list for PBXNativeTarget "UniMarble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8AFEF4133FBDEB004ADF5D /* Debug */,
+				9F8AFEF5133FBDEB004ADF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8AFEC3133FBDEB004ADF5D /* Project object */;
+}
