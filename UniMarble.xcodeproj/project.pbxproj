@@ -21,6 +21,7 @@
 		9F8AFEF0133FBDEB004ADF5D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEEE133FBDEB004ADF5D /* ViewController_iPad.xib */; };
 		9F8AFEF9133FBF92004ADF5D /* leaves@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEF8133FBF92004ADF5D /* leaves@2x.png */; };
 		9F8AFEFB133FC1F5004ADF5D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8AFEFA133FC1F5004ADF5D /* leaves.png */; };
+		9F9842541349F37C0066F193 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9842531349F37C0066F193 /* Untitled.png */; };
 		9FD7B6001349EC5B0005B1FF /* Marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7B5FE1349EC5B0005B1FF /* Marble.png */; };
 		9FD7B6041349ED880005B1FF /* Hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7B6031349ED880005B1FF /* Hole.png */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		9F8AFEEF133FBDEB004ADF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		9F8AFEF8133FBF92004ADF5D /* leaves@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaves@2x.png"; sourceTree = "<group>"; };
 		9F8AFEFA133FC1F5004ADF5D /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		9F9842531349F37C0066F193 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		9FD7B5FE1349EC5B0005B1FF /* Marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Marble.png; sourceTree = "<group>"; };
 		9FD7B6031349ED880005B1FF /* Hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hole.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				9F8AFEF8133FBF92004ADF5D /* leaves@2x.png */,
 				9FD7B5FE1349EC5B0005B1FF /* Marble.png */,
 				9FD7B6031349ED880005B1FF /* Hole.png */,
+				9F9842531349F37C0066F193 /* Untitled.png */,
 				9F8AFEFA133FC1F5004ADF5D /* leaves.png */,
 				9F8AFEDF133FBDEB004ADF5D /* AppDelegate.h */,
 				9F8AFEE0133FBDEB004ADF5D /* AppDelegate.m */,
@@ -183,6 +186,7 @@
 				9F8AFEFB133FC1F5004ADF5D /* leaves.png in Resources */,
 				9FD7B6001349EC5B0005B1FF /* Marble.png in Resources */,
 				9FD7B6041349ED880005B1FF /* Hole.png in Resources */,
+				9F9842541349F37C0066F193 /* Untitled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
