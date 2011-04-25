@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Holes.h"
 
 @interface ViewController : UIViewController
 {
-    NSArray *holeBounds;
+    NSArray *holeNumber;
 }
 
 
