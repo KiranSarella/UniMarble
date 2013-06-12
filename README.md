@@ -12,3 +12,11 @@ Description:
  You should find every qualified ball and clean it. Sometimes there are several places your balls can go, 
  and you should choose an appropriate one so that you can clean more balls. 
  If you can not find any qualified ball any more, game will be over
+
+![Alt text](https://raw.github.com/KiranSarella/UniMarble/master/ScreenShots/1.png)
+
+![Alt text](https://raw.github.com/KiranSarella/UniMarble/master/ScreenShots/2.png)
+
+![Alt text](https://raw.github.com/KiranSarella/UniMarble/master/ScreenShots/3.png)
+
+
