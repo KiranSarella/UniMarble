@@ -151,7 +151,7 @@
             if ([self isValidHole:ToTag]){
                 if ([self checkingForMarble:ToTag])
                 {
-                    ((UIImageView *)[[[self.view viewWithTag:ToTag] subviews] objectAtIndex:0]).backgroundColor = [UIColor yellowColor];
+                    ((UIImageView *)[[[self.view viewWithTag:ToTag] subviews] objectAtIndex:0]).backgroundColor = [UIColor blueColor];
                 }
             }
         }
