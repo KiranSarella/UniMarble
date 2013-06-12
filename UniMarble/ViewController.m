@@ -69,16 +69,12 @@
 -(void) handleTapForHole:(UITapGestureRecognizer *) sender
 {
     NSLog(@"backGround:%@",((UIImageView *)sender.view).backgroundColor);
-    if ( ((UIImageView *)sender.view).backgroundColor != nil ) {
+    if ( ((UIImageView *)sender.view).backgroundColor != nil )
+    {
               NSLog(@"%d -> no of balls:%d",FromTag,[[[self.view viewWithTag:FromTag] subviews] count]);
         
         
-  //     ((UIImageView *) [[[self.view viewWithTag:FromTag] subviews] objectAtIndex:0]).backgroundColor = [UIColor blueColor];
-        // remove marble from superview
-        
-        UIImageView *buffer =  [[[[self.view viewWithTag:FromTag] subviews] objectAtIndex:0] retain];
-        
-
+         UIImageView *buffer =  [[[[self.view viewWithTag:FromTag] subviews] objectAtIndex:0] retain];
         [((UIImageView *)[[[self.view viewWithTag:FromTag] subviews] objectAtIndex:0]) removeFromSuperview];
         [(UIImageView *)sender.view addSubview:buffer];
     
@@ -111,13 +107,57 @@
                 holes.backgroundColor = nil;
             }
         }
+    }
+    else
+    {
+        for (UIImageView *holes in self.view.subviews)
+        {
+            if (holes.tag >= 2 && holes.tag <= 64)
+            {
+                holes.backgroundColor = nil;
+            }
+        }
 
-        // add to sender view
+        for (UIImageView *holes in self.view.subviews)
+        {
+            if (holes.tag >= 2 && holes.tag <= 64)
+            {
+                if([[holes subviews] count]!=0)
+                {
+                    ((UIImageView *)[[holes subviews] objectAtIndex:0]).backgroundColor = nil;
+                }
+            }
+        }
+
         
-        
+        int tag = ((UIImageView *)sender.view).tag;
+        [self containsMarbleToGlow:tag at:@"right"];
+        [self containsMarbleToGlow:tag at:@"left"];
+        [self containsMarbleToGlow:tag at:@"up"];
+        [self containsMarbleToGlow:tag at:@"down"];
     }
 }
 
+-(void) containsMarbleToGlow:(int)tag at:(NSString *)direction
+{
+    FromTag = tag;
+    // going to the required direcion and return YES if hole contains marble
+    betweenTag = [self requiredTag:FromTag inDirection:direction];
+    if ([self isValidHole:betweenTag]){
+        // checking for first level
+        if ([self checkingForMarble:betweenTag]) {
+            // checking for second level
+            ToTag = [self requiredTag:betweenTag inDirection:direction];
+            if ([self isValidHole:ToTag]){
+                if ([self checkingForMarble:ToTag])
+                {
+                    ((UIImageView *)[[[self.view viewWithTag:ToTag] subviews] objectAtIndex:0]).backgroundColor = [UIColor yellowColor];
+                }
+            }
+        }
+    }
+    // return  NO;
+}
 
 
 #pragma mark - handles Marble
@@ -134,6 +174,18 @@
             holes.backgroundColor = nil;
         }
     }
+    
+    for (UIImageView *holes in self.view.subviews)
+    {
+        if (holes.tag >= 2 && holes.tag <= 64)
+        {
+            if([[holes subviews] count]!=0)
+            {
+                ((UIImageView *)[[holes subviews] objectAtIndex:0]).backgroundColor = nil;
+            }
+        }
+    }
+
     
     NSLog(@"___________%@_____________",NSStringFromSelector(_cmd));
     int tag = [sender.view superview].tag;
